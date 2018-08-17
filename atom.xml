@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zanwenok.github.io/"/>
-  <updated>2018-08-17T12:42:59.808Z</updated>
+  <updated>2018-08-17T15:24:21.448Z</updated>
   <id>https://zanwenok.github.io/</id>
   
   <author>
@@ -17,9 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>圆桌赌博</title>
+    <link href="https://zanwenok.github.io/2018/08/17/%E5%9C%86%E6%A1%8C%E8%B5%8C%E5%8D%9A/"/>
+    <id>https://zanwenok.github.io/2018/08/17/圆桌赌博/</id>
+    <published>2018-08-17T14:13:06.000Z</published>
+    <updated>2018-08-17T15:24:21.448Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>A, B, C, D四人围绕一个圆桌坐成一圈，按照如下规则进行圆桌赌博游戏：</p><ol><li>游戏开始时A，C各持有一枚均匀的骰子</li><li>在坐的每人向桌上放2元钱</li><li>持有骰子的人掷出自己的骰子，根据得到的点数决定是否将骰子传给其他人。若得到1点传给左边；若得到6点传给右边；否则自己保留骰子</li><li>若某一个人同时得到两枚骰子则被淘汰出局，并将骰子随机分给桌上剩下的两个不同的人</li><li>重复2到4步，直到剩下一个人，赢得桌上所有的钱。</li></ol><p>问：胜利者赢得钱数的期望。</p><h3 id="求解"><a href="#求解" class="headerlink" title="求解"></a>求解</h3><p>如果仔细分析，桌上人持有骰子的情况可分为如下5种：<br><img src="status.PNG" alt="status"><br>用黑色的小人代表持有骰子的人，白色的代表没有骰子的人。游戏开始时为第1种情况，游戏开始时为第5种情况。</p><p>某一轮开始时为第1种情况，结束时可能变成1,2,3这三种情况；</p><p>某一轮开始时为第2种情况，结束时可能变成1,2,3这三种情况；</p><p>某一轮开始时为第3种情况，结束时可能变成3,4这两种情况；</p><p>某一轮开始时为第4种情况，结束时可能变成4,5这两种情况；</p><p>若将这几种情况视为5个状态，可将上述游戏过程看作一个马氏链。记状态$i$到状态$j$的跳转概率为$p_{ij}$，则有：<br>$$p{1,1} = \frac{1}{6}$$</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h3&gt;&lt;p&gt;A, B, C, D四人围绕一个圆桌坐成一圈，按照如下规则进行圆桌赌博游戏：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;游戏开始时A，C各持有一枚均匀的骰子
+      
+    
+    </summary>
+    
+      <category term="概率论" scheme="https://zanwenok.github.io/categories/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    
+    
+      <category term="马氏链" scheme="https://zanwenok.github.io/tags/%E9%A9%AC%E6%B0%8F%E9%93%BE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>创世纪</title>
-    <link href="https://zanwenok.github.io/2018/08/17/test/"/>
-    <id>https://zanwenok.github.io/2018/08/17/test/</id>
+    <link href="https://zanwenok.github.io/2018/08/17/%E5%88%9B%E4%B8%96%E7%BA%AA/"/>
+    <id>https://zanwenok.github.io/2018/08/17/创世纪/</id>
     <published>2018-08-17T08:06:43.000Z</published>
     <updated>2018-08-17T12:42:59.808Z</updated>
     
