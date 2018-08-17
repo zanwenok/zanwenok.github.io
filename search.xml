@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[test]]></title>
+    <title><![CDATA[创世纪]]></title>
     <url>%2F2018%2F08%2F17%2Ftest%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[一直想搭个博客用来记录每天的所学所想，今天闲下来行动了一下，没想到一不小心就创世成功了嘿嘿… 我是机器学习方向的小硕一枚，在数据科学这个鱼塘遨游的十分欢快，故取id为scifish，希望早日脱离鱼塘成为捕鱼达人… 计划在这里写一些各种踩过的坑和有意思的paper、算法等，供自己以后查阅，当然小伙伴们若是能在这里有所收获是再好不过了。 那就先立个flag，每周至少更一篇技术类的文章，看看什么时候被打脸吧(逃…]]></content>
+      <categories>
+        <category>碎碎念</category>
+      </categories>
   </entry>
 </search>
